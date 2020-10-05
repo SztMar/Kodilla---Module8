@@ -9,3 +9,8 @@ h2 {
     color:blue;
     font-size: 50px;
 }
+
+form {
+    font: bold;
+    font-size: 30px;
+}
