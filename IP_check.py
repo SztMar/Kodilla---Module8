@@ -1,0 +1,2 @@
+ping google.pl
+
