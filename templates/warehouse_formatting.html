@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+{% if errors %}
+<div id="errors">
+<h2>errors!</h2>
+<ol>
+    {% for error in errors %}
+    <li>{{error}}</li>
+    {% endfor %}
+</ol>
+</div>
+{% endif %}
+
+<h1>Warehouse</h1>
+<img src="{{url_for('static',filename='logo.jpg')}}" />
+<ul>
+    {% for item in items %}
+    <li>{{item}}</li>
+    {% endfor %}
+</ul>
+
+</body>
+
+</html>

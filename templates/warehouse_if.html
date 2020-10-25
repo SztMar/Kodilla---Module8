@@ -1,0 +1,15 @@
+{% if errors %}
+<h2>errors!</h2>
+<ol>
+    {% for error in errors %}
+    <li>{{error}}</li>
+    {% endfor %}
+</ol>
+{% endif %}
+
+<h1>Warehouse</h1>
+<ul>
+    {% for item in items %}
+    <li>{{item}}</li>
+    {% endfor %}
+</ul>

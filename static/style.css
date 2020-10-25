@@ -1,0 +1,25 @@
+h2 {
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+div#errors li {
+    color: black;
+    font-size: 15px;
+    font-style: initial;
+
+}
+
+div#items li {
+    color: black;
+    font-size: 15px;
+    font-style: initial;
+
+}
+
+h1 {
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
