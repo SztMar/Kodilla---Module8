@@ -14,8 +14,9 @@ def about_me():
        
     return render_template("O_mnie.html")
 
+#POST
 @app.route('/contact', methods=['POST'])
 def contact_message():
     
-    return request.form
-    #return render_template("kontakt.html")
+    return request.form 
+    
